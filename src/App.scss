@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282d35;
+  .App {
+    // width: 1200px;
+    margin: auto;
+    header {
+      background-color: #21222a;
+      padding: 30px 25px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 60px;
+      }
+      h3 {
+        margin-right: auto;
+        color: #61dafb;
+        font-weight: 700;
+        font-size: 22px;
+      }
+      h4 {
+        color: #deebf8;
+        font-weight: 600;
+      }
+    }
+    main {
+      padding: 57px 27px;
+      color: white;
+      background-image: url(./react-icon-large.png);
+      background-repeat: no-repeat;
+      background-position: right 75%;
+      h1 {
+        margin: 0;
+        font-size: 39px;
+        letter-spacing: -0.05em;
+      }
+      ul {
+        margin-top: 46px;
+        max-width: 400px;
+        li {
+          line-height: 19px;
+          padding-block: 10px;
+          &::marker {
+            font-size: 1.4rem;
+            color: #61dafb;
+          }
+        }
+      }
+    }
+  }
+}

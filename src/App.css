@@ -84,7 +84,7 @@ body .App main {
   background-position: right 25%;
   color: #2b283a;
   margin: 0;
-  height: calc(100vh - 170px);
+  height: calc(100vh - 173px);
 }
 body .App main.dark {
   background-image: url(./react-icon-large.png);

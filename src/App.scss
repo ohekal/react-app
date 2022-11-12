@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+
   .App {
     margin: auto;
     header {
@@ -88,7 +89,7 @@ body {
       background-position: right 25%;
       color: #2b283a;
       margin: 0;
-      height: calc(100vh - 170px);
+      height: calc(100vh - 173px);
       &.dark {
         background-image: url(./react-icon-large.png);
         background-color: #282d35;
